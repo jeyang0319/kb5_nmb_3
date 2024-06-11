@@ -1,7 +1,7 @@
 <template>
     <div class="row">
         <div class="col p-3">
-            <router-link class="btn btn-primary" to="/todos/add"> 내역 추가 </router-link>
+            <router-link class="btn btn-primary" to="/inout/add"> 내역 추가 </router-link>
             <button class="btn btn-primary ms-1" @click="fetchInoutList">새로 고침</button>
         </div>
     </div>
