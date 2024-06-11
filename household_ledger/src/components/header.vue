@@ -10,7 +10,7 @@
                     <router-link class="nav-link" to="/">Calender</router-link>
                 </li>
                 <li class="nav-item">
-                    <router-link class="nav-link" to="/about">InOut</router-link>
+                    <router-link class="nav-link" to="/inout">InOut</router-link>
                 </li>
                 <li class="nav-item">
                     <router-link class="nav-link" to="/report">Report</router-link>

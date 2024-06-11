@@ -1,34 +1,240 @@
 {
-  "todos": [
+  "budget" : [
     {
-      "id": "6220",
-      "todo": "안녕",
-      "desc": "ㅎㅇㅎㅇ",
-      "done": false
+      "id" : "1234",
+      "date" : "2024-10-09",
+      "category_id": 1,
+      "amount": 100000,
+      "memo" : "hi"
     },
     {
-      "id": "9049",
-      "todo": "ㅁㄴㅇㄹ",
-      "desc": "ㅁㄴㅇㄹ",
-      "done": false
+      "id" : "1234",
+      "date" : "2024-10-10",
+      "category_id": 1,
+      "amount": 200000,
+      "memo" : "hi"
     },
     {
-      "id": "364c",
-      "todo": "d",
-      "desc": "d",
-      "done": false
+      "id" : "1234",
+      "date" : "2024-06-05",
+      "category_id": 1,
+      "amount": 200000,
+      "memo" : "hi"
+    }
+
+  ],
+  "category" :[
+    {
+      "id" : 1,
+      "type" : "salary",
+      "is_income" : true,
+      "is_cash" : true
     },
     {
-      "id": "1d2b",
-      "todo": "D",
-      "desc": "ASDASDAS",
-      "done": false
+      "id" : 2,
+      "type" : "salary",
+      "is_income" : true,
+      "is_cash" : false
     },
     {
-      "id": "d2d6",
-      "todo": "안녕",
-      "desc": "ㅎㅇㅎㅇ",
-      "done": false
+      "id" : 3,
+      "type" : "salary",
+      "is_income" : false,
+      "is_cash" : true
+    },
+    {
+      "id" : 4,
+      "type" : "salary",
+      "is_income" : false,
+      "is_cash" : false
+    },
+    {
+      "id" : 5,
+      "type" : "allowance",
+      "is_income" : true,
+      "is_cash" : true
+    },
+    {
+      "id" : 6,
+      "type" : "allowance",
+      "is_income" : true,
+      "is_cash" : false
+    },
+    {
+      "id" : 7,
+      "type" : "allowance",
+      "is_income" : false,
+      "is_cash" : true
+    },
+    {
+      "id" : 8,
+      "type" : "allowance",
+      "is_income" : false,
+      "is_cash" : false
+    },
+    {
+      "id" : 9,
+      "type" : "refund",
+      "is_income" : true,
+      "is_cash" : true
+    },
+    {
+      "id" : 10,
+      "type" : "refund",
+      "is_income" : true,
+      "is_cash" : false
+    },
+    {
+      "id" : 11,
+      "type" : "refund",
+      "is_income" : false,
+      "is_cash" : true
+    },
+    {
+      "id" : 12,
+      "type" : "refund",
+      "is_income" : false,
+      "is_cash" : false
+    },
+    {
+      "id" : 13,
+      "type" : "etc",
+      "is_income" : true,
+      "is_cash" : true
+    },
+    {
+      "id" : 14,
+      "type" : "etc",
+      "is_income" : true,
+      "is_cash" : false
+    },
+    {
+      "id" : 15,
+      "type" : "etc",
+      "is_income" : false,
+      "is_cash" : true
+    },
+    {
+      "id" : 16,
+      "type" : "etc",
+      "is_income" : false,
+      "is_cash" : false
+    },
+    {
+      "id" : 1,
+      "cateogry" : "food"
+    },
+    {
+      "id" : 2,
+      "cateogry" : "traffic"
+    },
+    {
+      "id" : 3,
+      "cateogry" : "utility"
+    },
+    {
+      "id" : 4,
+      "cateogry" : "housing"
+    },
+    {
+      "id" : 5,
+      "cateogry" : "entertain"
+    },
+    {
+      "id" : 6,
+      "cateogry" : "interest"
+    },
+    {
+      "id" : 7,
+      "cateogry" : "insurrance"
+    },
+    {
+      "id" : 8,
+      "cateogry" : "etcOutcome"
+    },
+    {
+      "id" : 1,
+      "category" : "food",
+      "is_income" : false,
+      "is_cash" : true
+    },
+    {
+      "id" : 1,
+      "category" : "food",
+      "is_income" : false,
+      "is_cash" : false
+    },
+    {
+      "id" : 1,
+      "category" : "traffic",
+      "is_income" : false,
+      "is_cash" : true
+    },
+    {
+      "id" : 1,
+      "category" : "traffic",
+      "is_income" : false,
+      "is_cash" : false
+    },
+    {
+      "id" : 1,
+      "category" : "utility",
+      "is_income" : false,
+      "is_cash" : true
+    },
+    {
+      "id" : 1,
+      "category" : "utility",
+      "is_income" : false,
+      "is_cash" : false
+    },
+    {
+      "id" : 1,
+      "category" : "housing",
+      "is_income" : false,
+      "is_cash" : true
+    },
+    {
+      "id" : 1,
+      "category" : "housing",
+      "is_income" : false,
+      "is_cash" : false
+    },
+    {
+      "id" : 1,
+      "category" : "entertain",
+      "is_income" : false,
+      "is_cash" : true
+    },
+    {
+      "id" : 1,
+      "category" : "entertain",
+      "is_income" : false,
+      "is_cash" : false
+    },
+    {
+      "id" : 1,
+      "category" : "interest",
+      "is_income" : false,
+      "is_cash" : true
+    },
+    {
+      "id" : 1,
+      "category" : "interest",
+      "is_income" : false,
+      "is_cash" : false
+    },
+    {
+      "id" : 1,
+      "category" : "insurance",
+      "is_income" : false,
+      "is_cash" : true
+    },
+    {
+      "id" : 1,
+      "category" : "insurance",
+      "is_income" : false,
+      "is_cash" : false
     }
   ]
 }
