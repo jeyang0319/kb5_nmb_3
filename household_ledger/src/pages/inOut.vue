@@ -1,17 +1,16 @@
 <template>
     <div class="row">
         <div class="col p-3">
-            <router-link class="btn btn-primary" to="/inout/add"> 내역 추가 </router-link>
-            <button class="btn btn-primary ms-1" @click="fetchInoutList">새로 고침</button>
+            <ul class="list-group">
+                <inoutItem />
+            </ul>
         </div>
     </div>
     <div class="row">
         <div class="col p-3">
-            <ul class="list-group">
-                <inoutItem v-for="inoutItem in inoutList" :key="inoutItem.id" :inoutItem="inoutItem" />
-            </ul>
+            <router-link class="btn btn-primary" to="/inout/add"> 내역 추가 </router-link>
+            <button class="btn btn-primary ms-1" @click="fetchInoutList">새로 고침</button>
         </div>
-        <span>완료된 할일 </span>
     </div>
 </template>
 
