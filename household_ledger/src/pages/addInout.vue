@@ -17,18 +17,22 @@
             <div class="form-group">
                 <label htmlFor="cat"> 카테고리:</label>
                 <select class="form-select" v-model="inoutItem.type">
-                    <option value="salary">salary</option>
-                    <option value="food">food</option>
-                    <option value="expense">expense</option>
-                    <option value="allowance">allowance</option>
-                    <option value="refund">refund</option>
-                    <option value="etc">etc</option>
-                    <option value="traffic">traffic</option>
-                    <option value="utility">utility</option>
-                    <option value="housing">housing</option>
-                    <option value="entertain">entertain</option>
-                    <option value="interest">interest</option>
-                    <option value="insurance">insurance</option>
+                    <optgroup label="수입">
+                    <option value="월급">월급</option>
+                    <option value="용돈">용돈</option>
+                    <option value="환급금">환급금</option>
+                    <option value="기타">기타</option>
+                    </optgroup>
+                    <optgroup label="지출">
+                    <option value="식비">식비</option>
+                    <option value="교통비">교통비</option>
+                    <option value="공과금">공과금</option>
+                    <option value="주거비">주거비</option>
+                    <option value="유흥비">유흥비</option>
+                    <option value="이자">이자</option>
+                    <option value="보험료">보험료</option>
+                    <option value="기타">기타</option>
+                    </optgroup>
                 </select>
             </div>
             <br>
