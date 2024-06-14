@@ -18,9 +18,6 @@
         >
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <router-link class="nav-link" to="/">Calender</router-link>
-                </li>
-                <li class="nav-item">
                     <router-link class="nav-link" to="/inout"
                         >InOut</router-link
                     >
