@@ -72,7 +72,7 @@
             <br>
             <div class="form-group">
                 <button type="button" class="btn btn-dark m-1" @click="addInoutHandler">추 가</button>
-                <button type="button" class="btn btn-dark m-1" @click="router.push('/budget')">취 소</button>
+                <button type="button" class="btn btn-dark m-1" @click="router.push('/inout')">취 소</button>
             </div>
         </div>
     </div>
