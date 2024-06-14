@@ -255,7 +255,7 @@
       incomeData: totalIncome.value, // 수입 데이터 값
       expenseData: totalExpense.value, // 지출 데이터 값
       labels: ["수입", "지출"], // 수입과 지출 라벨
-      backgroundColors: ["rgba(54, 162, 235, 0.2)", "rgba(255, 99, 132, 0.2)"], // 색상 설정
+      backgroundColors: ["rgba(54, 162, 235, 0.7)", "rgba(255, 99, 132, 0.7)"], // 색상 설정
       borderColors: ["rgba(54, 162, 235, 1)", "rgba(255, 99, 132, 1)"], // 테두리 색상 설정
     };
   };
@@ -357,21 +357,21 @@
           {
             label: "수입",
             data: data.map((item) => item.income),
-            backgroundColor: "rgba(54, 162, 235, 0.2)",
+            backgroundColor: "rgba(54, 162, 235, 0.6)",
             borderColor: "rgba(54, 162, 235, 1)",
             borderWidth: 1,
           },
           {
             label: "지출",
             data: data.map((item) => item.expense),
-            backgroundColor: "rgba(255, 99, 132, 0.2)",
+            backgroundColor: "rgba(255, 99, 132, 0.6)",
             borderColor: "rgba(255, 99, 132, 1)",
             borderWidth: 1,
           },
           {
             label: "총합",
             data: data.map((item) => item.total),
-            backgroundColor: "rgba(75, 192, 192, 0.2)",
+            backgroundColor: "rgba(75, 192, 192, 0.6)",
             borderColor: "rgba(75, 192, 192, 1)",
             borderWidth: 1,
           },
