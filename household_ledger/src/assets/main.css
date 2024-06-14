@@ -21,3 +21,8 @@ body {
 .pointer {
   cursor: pointer;
 }
+
+.scroll{
+  overflow-y: scroll;
+  height: 550px;
+}

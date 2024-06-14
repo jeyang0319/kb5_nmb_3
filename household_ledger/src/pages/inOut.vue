@@ -1,6 +1,6 @@
 <template>
     <div class="row">
-      <div class="col p-3">
+      <div class="col p-3 scroll">
         <ul class="list-group">
           <inoutItem />
         </ul>
