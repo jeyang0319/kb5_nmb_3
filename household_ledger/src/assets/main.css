@@ -23,6 +23,5 @@ body {
 }
 
 .scroll{
-  overflow-y: scroll;
-  height: 550px;
+  height: 70vh;
 }
