@@ -1,233 +1,197 @@
 {
   "budget": [
     {
-      "id": "15d9",
-      "date": "2024-01-03",
-      "category_id": "2",
-      "amount": "0000",
-      "memo": "asdfasfasfsadfasdfdsafasf"
+      "id": "a6d5",
+      "date": "2024-06-06",
+      "category_id": "1",
+      "amount": 100000,
+      "memo": "월급 입금 완료!"
     },
     {
-      "id": "08e1",
-      "date": "2024-01-05",
-      "category_id": "3",
-      "amount": 100,
-      "memo": ""
-    },
-    {
-      "id": "513c",
-      "date": "2024-04-15",
-      "category_id": "9",
-      "amount": 10000,
-      "memo": "asf"
-    },
-    {
-      "id": "3175",
-      "date": "2024-06-03",
-      "category_id": "13",
-      "amount": 100,
-      "memo": "asdf"
-    },
-    {
-      "id": "be63",
-      "date": "2024-06-05",
-      "category_id": "13",
-      "amount": 10000,
-      "memo": "asdf"
-    },
-    {
-      "id": "a2bc",
-      "date": "2024-06-03",
+      "id": "a35e",
+      "date": "2024-06-13",
       "category_id": "12",
-      "amount": 10,
-      "memo": "dd"
+      "amount": 1600,
+      "memo": "아메리카노"
     },
     {
-      "id": "45b1",
-      "date": "2024-06-04",
+      "id": "fbd3",
+      "date": "2024-05-03",
+      "category_id": "4",
+      "amount": 300000,
+      "memo": "용돈받았다!"
+    },
+    {
+      "id": "09b3",
+      "date": "2024-05-10",
+      "category_id": "12",
+      "amount": 15000,
+      "memo": "짜장면"
+    },
+    {
+      "id": "0552",
+      "date": "2024-05-07",
+      "category_id": "14",
+      "amount": 22000,
+      "memo": "교통비 출금"
+    },
+    {
+      "id": "4d27",
+      "date": "2024-06-13",
+      "category_id": "24",
+      "amount": 73000,
+      "memo": "보험료"
+    },
+    {
+      "id": "26ce",
+      "date": "2024-06-21",
       "category_id": "20",
-      "amount": 100,
-      "memo": "ad"
+      "amount": 35000,
+      "memo": "pc방"
     }
   ],
   "category": [
     {
       "id": "1",
-      "type": "salary",
+      "type": "월급",
       "is_income": true,
       "is_cash": true
     },
     {
       "id": "2",
-      "type": "salary",
+      "type": "월급",
       "is_income": true,
       "is_cash": false
     },
     {
       "id": "3",
-      "type": "salary",
-      "is_income": false,
+      "type": "용돈",
+      "is_income": true,
       "is_cash": true
     },
     {
       "id": "4",
-      "type": "salary",
-      "is_income": false,
+      "type": "용돈",
+      "is_income": true,
       "is_cash": false
     },
     {
       "id": "5",
-      "type": "allowance",
+      "type": "환급금",
       "is_income": true,
       "is_cash": true
     },
     {
       "id": "6",
-      "type": "allowance",
+      "type": "환급금",
       "is_income": true,
       "is_cash": false
     },
     {
       "id": "7",
-      "type": "allowance",
-      "is_income": false,
+      "type": "기타",
+      "is_income": true,
       "is_cash": true
     },
     {
       "id": "8",
-      "type": "allowance",
-      "is_income": false,
+      "type": "기타",
+      "is_income": true,
       "is_cash": false
     },
     {
       "id": "9",
-      "type": "refund",
-      "is_income": true,
+      "type": "기타",
+      "is_income": false,
       "is_cash": true
     },
     {
       "id": "10",
-      "type": "refund",
-      "is_income": true,
+      "type": "기타",
+      "is_income": false,
       "is_cash": false
     },
     {
       "id": "11",
-      "type": "refund",
+      "type": "식비",
       "is_income": false,
       "is_cash": true
     },
     {
       "id": "12",
-      "type": "refund",
+      "type": "식비",
       "is_income": false,
       "is_cash": false
     },
     {
       "id": "13",
-      "type": "etc",
-      "is_income": true,
+      "type": "교통비",
+      "is_income": false,
       "is_cash": true
     },
     {
       "id": "14",
-      "type": "etc",
-      "is_income": true,
+      "type": "교통비",
+      "is_income": false,
       "is_cash": false
     },
     {
       "id": "15",
-      "type": "etc",
+      "type": "공과금",
       "is_income": false,
       "is_cash": true
     },
     {
       "id": "16",
-      "type": "etc",
+      "type": "공과금",
       "is_income": false,
       "is_cash": false
     },
     {
       "id": "17",
-      "type": "food",
+      "type": "주거비",
       "is_income": false,
       "is_cash": true
     },
     {
       "id": "18",
-      "type": "food",
+      "type": "주거비",
       "is_income": false,
       "is_cash": false
     },
     {
       "id": "19",
-      "type": "traffic",
+      "type": "유흥비",
       "is_income": false,
       "is_cash": true
     },
     {
       "id": "20",
-      "type": "traffic",
+      "type": "유흥비",
       "is_income": false,
       "is_cash": false
     },
     {
       "id": "21",
-      "type": "utility",
+      "type": "이자",
       "is_income": false,
       "is_cash": true
     },
     {
       "id": "22",
-      "type": "utility",
+      "type": "이자",
       "is_income": false,
       "is_cash": false
     },
     {
       "id": "23",
-      "type": "housing",
+      "type": "보험료",
       "is_income": false,
       "is_cash": true
     },
     {
       "id": "24",
-      "type": "housing",
-      "is_income": false,
-      "is_cash": false
-    },
-    {
-      "id": "25",
-      "type": "entertain",
-      "is_income": false,
-      "is_cash": true
-    },
-    {
-      "id": "26",
-      "type": "entertain",
-      "is_income": false,
-      "is_cash": false
-    },
-    {
-      "id": "27",
-      "type": "interest",
-      "is_income": false,
-      "is_cash": true
-    },
-    {
-      "id": "28",
-      "type": "interest",
-      "is_income": false,
-      "is_cash": false
-    },
-    {
-      "id": "29",
-      "type": "insurance",
-      "is_income": false,
-      "is_cash": true
-    },
-    {
-      "id": "30",
-      "type": "insurance",
+      "type": "보험료",
       "is_income": false,
       "is_cash": false
     }
