@@ -476,6 +476,7 @@ const netTotal = computed(() => totalIncome.value - totalExpense.value);
   justify-content: space-between;
   width: 100%;
   padding-top: 20px;
+  margin-top: 20px;
   gap: 20px;
   background-color: #f9f9f9;
   border-radius: 10px;
