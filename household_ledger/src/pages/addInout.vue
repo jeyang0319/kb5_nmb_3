@@ -12,7 +12,7 @@
             </div>
             <div class="form-group">
                 <label htmlFor="amount">금액 :</label>
-                <input type="number" class="form-control" id="amount" v-model="inoutItem.amount"></input>
+                <input type="number" class="form-control" id="amount" v-model="inoutItem.amount"/>
             </div>
             <div class="form-group">
                 <label htmlFor="cat"> 카테고리:</label>

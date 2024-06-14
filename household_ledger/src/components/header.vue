@@ -1,6 +1,6 @@
 <template>
     <nav class="navbar navbar-expand-sm bg-light navbar-light">
-        <span class="navbar-brand ps-2">HOUSEHOLD</span>
+        <span class="navbar-brand ps-2">가계부</span>
         <button
             class="navbar-toggler"
             type="button"

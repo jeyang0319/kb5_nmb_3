@@ -39,7 +39,7 @@
             <div class="form-group">
                 <label htmlFor="done">금액 : </label>
                 <input
-                    type="text"
+                    type="number"
                     class="form-control"
                     id="amount"
                     v-model="inoutItem.amount"
